@@ -13,6 +13,7 @@
 .logo h2 {
     font-size: 45px;
     font: 900;
+    margin-bottom: 30px;
 }
 
 .color-orange{
@@ -56,7 +57,7 @@ header{
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 nav{
@@ -113,9 +114,14 @@ nav .menu a {
     margin-bottom: 30px;
 }
 
+#bannar .bannar-content button {
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
 #bannar .bannar-image img {
     max-width: 650px;
-    vertical-align: middle;
+    line-height: 0;
 }
 
 #about,
